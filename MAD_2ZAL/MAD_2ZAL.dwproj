@@ -6,10 +6,37 @@
     <Name>MAD_2ZAL.database</Name>
     <FullPath>MAD_2ZAL.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>WWI_DW.ds</Name>
+      <FullPath>WWI_DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>WWI_DW.dsv</Name>
+      <FullPath>WWI_DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>WWI_DW</Id>
+            <Name>WWI_DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=ALEKSANDRA;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>WWI_DW</Id>
+            <Name>WWI_DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
