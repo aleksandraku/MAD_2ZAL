@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4042" scrolltop="3559" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24130" y="10605" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4042" scrolltop="706" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24130" y="10605" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
             </font>
@@ -340,7 +340,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>3559</Value>
+      <Value>706</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -361,6 +361,12 @@
     <Dimension dwd:design-time-name="c00d2506-97e1-47ae-9a1a-e3ba700699d9">
       <ID>vDimCity</ID>
       <Name>vDimCity</Name>
+      <Translations>
+        <Translation dwd:design-time-name="cc8fa3e0-51c3-49c2-b199-9ec0912da89d">
+          <Language>1045</Language>
+          <Caption>Wymiar Miasta</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>vDimCity</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="a87ef6bd-b64d-422a-82c2-341ade11c4e6">
@@ -400,6 +406,12 @@
     <Dimension dwd:design-time-name="ff689f52-b4cc-4ae4-ba74-8c086573eb4d">
       <ID>vDimCustomer</ID>
       <Name>vDimCustomer</Name>
+      <Translations>
+        <Translation dwd:design-time-name="66f9958f-6690-4257-a3a1-9885867abe09">
+          <Language>1045</Language>
+          <Caption>Wymiar Klientow</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>vDimCustomer</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="b3f2c979-421a-46d9-a25f-b48567417030">
@@ -1191,6 +1203,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="590a6b42-6841-4aaf-a046-7481982763b1">
+              <Language>1045</Language>
+              <Caption>Ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="4b2e0973-08c0-487b-852e-8a6d43417fd8">
           <ID>Unit Price - v Fact Order</ID>
@@ -1203,6 +1221,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="96199f8c-a895-4b4e-85ae-81d922d00d94">
+              <Language>1045</Language>
+              <Caption>Cena jednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="ad8ee0b0-948e-415a-a27a-24d740a36d7a">
           <ID>Tax Rate - v Fact Order</ID>
@@ -1215,6 +1239,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="7e7b4579-d8ad-4dd0-9283-f87b5454c811">
+              <Language>1045</Language>
+              <Caption>Wysokość podatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="ae36d960-112b-4597-bba6-b33f53d9cdc5">
           <ID>Total Excluding Tax</ID>
@@ -1227,6 +1257,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="53d85c4a-9bec-4bdd-a8cf-5f04b23049c8">
+              <Language>1045</Language>
+              <Caption>Razem bez podatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="1b4716e1-602b-4907-a4c7-f078df88428c">
           <ID>Tax Amount</ID>
@@ -1239,6 +1275,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="18f8d737-fe58-4f1a-9a0e-925231d39c4b">
+              <Language>1045</Language>
+              <Caption>Wysokość podatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="ff106569-718e-434b-8260-1a5a05f391b3">
           <ID>Total Including Tax</ID>
@@ -1251,6 +1293,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="775ab558-468d-4a9a-aedd-8ffbe13dd2e6">
+              <Language>1045</Language>
+              <Caption>Łącznie z podatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="0449c361-db30-475c-a1de-b9b6490b9834">
           <ID>Lineage Key - v Fact Order</ID>
@@ -1373,6 +1421,12 @@
               <ColumnID>WWIStockItemTransactionID</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="bfbb15b9-bd18-4b1e-b9b3-952444eb386d">
+              <Language>1045</Language>
+              <Caption>dentyfikator transakcji</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="1c4766f2-e186-4fa8-86f6-79b5ccdc5a77">
           <ID>Transaction Type Key</ID>
@@ -1384,6 +1438,12 @@
               <ColumnID>TransactionTypeKey</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="d42dcdc5-6fac-4f52-b0a5-6cc04db739ca">
+              <Language>1045</Language>
+              <Caption>Klucz typu transakcji</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="5b4497fd-c205-4337-b49a-5ad13837d4d1">
           <ID>WWI Invoice ID</ID>
@@ -1395,6 +1455,12 @@
               <ColumnID>WWIInvoiceID</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="97d924d5-4c1c-4872-8f35-852b490571a5">
+              <Language>1045</Language>
+              <Caption>ID Faktury</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="0420a26d-db3b-44d5-9b33-d73a5ee414e8">
           <ID>WWI Purchase Order ID</ID>
@@ -1406,6 +1472,12 @@
               <ColumnID>WWIPurchaseOrderID</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="10fc814a-8150-4b3c-aa58-6c2582588e39">
+              <Language>1045</Language>
+              <Caption>ID zamówienia zakupu</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="f85a477c-1139-401f-ab57-619c47d50bfe">
           <ID>Quantity - v Fact Movement</ID>
@@ -1417,6 +1489,12 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="b2ddc137-0c77-42b0-9be0-a96aeb409f3c">
+              <Language>1045</Language>
+              <Caption>Ilość vFactMovement</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="de103a66-8f3d-4ce4-a184-3d26beec052b">
           <ID>Supplier Key</ID>
@@ -1428,6 +1506,12 @@
               <ColumnID>SupplierKey</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="2eaeb590-56e1-4903-99d5-5740889410ac">
+              <Language>1045</Language>
+              <Caption>Klucz dostawcy</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="7e8269d4-1e1a-4ef1-bab1-fc3be56dd58c">
           <ID>Lineage Key - v Fact Movement</ID>
@@ -1533,6 +1617,12 @@
               <ColumnID>BillToCustomerKey</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="04e33fdb-3934-4254-8a71-f68e6c4feaae">
+              <Language>1045</Language>
+              <Caption>Rachunek do klucza klienta</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="d8f1545d-8fb7-44ca-8422-e15be5793161">
           <ID>WWI Invoice ID - v Fact Sale</ID>
@@ -1555,6 +1645,12 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="fc32b8cb-a4b8-4599-88f3-9abca3114255">
+              <Language>1045</Language>
+              <Caption>ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="ed3fa1cf-618e-4ba5-ab62-0c1fafa24665">
           <ID>Unit Price - v Fact Sale</ID>
@@ -1567,6 +1663,12 @@
             </Source>
           </Source>
           <FormatString># ##0,00;-# ##0,00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="ac5e6f72-92a9-45ca-8bc4-0121f489302f">
+              <Language>1045</Language>
+              <Caption>Cena Jednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="30f07cf8-a46a-4ef8-83b4-6fde1db51652">
           <ID>Tax Rate - v Fact Sale</ID>
@@ -1594,7 +1696,7 @@
         </Measure>
         <Measure dwd:design-time-name="acbbe9bc-59ab-4074-94a8-05077f59b8bd">
           <ID>Tax Amount - v Fact Sale</ID>
-          <Name>Tax Amount - v Fact Sale</Name>
+          <Name>TaxAmountvFactSale</Name>
           <Source dwd:design-time-name="5c3876d8-e086-4f98-a7ad-ce4f3e983640">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="41a78189-a969-47b2-9c9d-addecb31ba73">
@@ -1614,10 +1716,16 @@
               <ColumnID>Profit</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="71a37da1-70fd-4e10-9971-8bd658f5cee1">
+              <Language>1045</Language>
+              <Caption>Zysk</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="bcbaeb55-e1e5-42a6-a2b5-916185a36e1c">
           <ID>Total Including Tax - v Fact Sale</ID>
-          <Name>Total Including Tax - v Fact Sale</Name>
+          <Name>TotalIncludingTaxvFactSale</Name>
           <Source dwd:design-time-name="ba3d48a2-c287-4025-b630-5487afbdb029">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="85f9395e-9f3a-4b24-adef-f6ed21618dc5">
@@ -1628,7 +1736,7 @@
         </Measure>
         <Measure dwd:design-time-name="9171b2f1-d78f-444f-90a2-791eeb00ce74">
           <ID>Total Dry Items</ID>
-          <Name>Total Dry Items</Name>
+          <Name>TotalDryItems</Name>
           <Source dwd:design-time-name="8fc038a4-dbed-49c2-92eb-fa7c701d47fa">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="7e50f251-8a67-40a6-b67b-04386261f32b">
@@ -1636,10 +1744,16 @@
               <ColumnID>TotalDryItems</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="fac6bcc1-e560-450b-bd0c-6626ce89ff38">
+              <Language>1045</Language>
+              <Caption>Razem suche przedmioty</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="a9941de5-efe5-4961-8a10-2fca7c2493cd">
           <ID>Total Chiller Items</ID>
-          <Name>Total Chiller Items</Name>
+          <Name>TotalChillerItems</Name>
           <Source dwd:design-time-name="500c311f-144c-4da8-a561-d839a3094d56">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="9c52b480-c6ea-4238-b250-08e651ad2fcd">
@@ -1647,10 +1761,16 @@
               <ColumnID>TotalChillerItems</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="574049e9-0991-459a-9368-773abb6583f7">
+              <Language>1045</Language>
+              <Caption>Całkowita liczba elementów chiller</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="5909edfe-eea1-4d95-9645-a183517f4afc">
           <ID>Lineage Key - v Fact Sale</ID>
-          <Name>Lineage Key - v Fact Sale</Name>
+          <Name>LineageKeyvFactSale</Name>
           <Source dwd:design-time-name="4c3d4329-68fd-4684-a5d7-dc88bad44584">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="519ca935-97f5-4870-9cbb-bb9ebf6d4e9d">
@@ -1661,7 +1781,7 @@
         </Measure>
         <Measure dwd:design-time-name="2cc794df-004f-4ec6-ac53-1c7b63f79698">
           <ID>v Fact Sale Count</ID>
-          <Name>v Fact Sale Count</Name>
+          <Name>vFactSaleCount</Name>
           <AggregateFunction>Count</AggregateFunction>
           <Source dwd:design-time-name="cf70811a-5d72-47e6-8f18-b93ac37d2c3a">
             <DataType>Integer</DataType>

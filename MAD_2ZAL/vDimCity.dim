@@ -120,6 +120,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="0907959f-357e-424f-9f02-5be7c9e48785">
+      <Language>1045</Language>
+      <Caption>Wymiar miasta</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="794af2e9-3eb5-4d3e-a101-dcb307ec3ca1">
       <ID>City Key</ID>
@@ -218,6 +224,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="f5c1f689-5637-49e1-a0fb-938ac58ffcea">
+          <Language>1045</Language>
+          <Caption>Prowincja stanowa</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="da94b267-aadb-414a-b36d-f77fec3ed081">
           <AttributeID>Country</AttributeID>
@@ -293,6 +305,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="da8ab31b-004a-4c74-891c-44ac1421491c">
+          <Language>1045</Language>
+          <Caption>Teren sprzedaży</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -386,6 +404,12 @@
           <ID>State Province</ID>
           <Name>State Province</Name>
           <SourceAttributeID>State Province</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="8e8eedcc-9211-4e44-845d-f2504a3200ba">
+              <Language>1045</Language>
+              <Caption>Prowincja stanowa</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="11426f14-a387-400f-8129-27437f4ca69a">
           <ID>City Key</ID>
