@@ -1896,6 +1896,10 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members' ,  ASSOCIATED_MEASURE_GROU
 CREATE MEMBER CURRENTCUBE.[Measures].[Tax]
  AS [Measures].[TotalIncludingTax] - [Measures].[TotalExcludingTax], 
 FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members' ,  ASSOCIATED_MEASURE_GROUP = 'v Fact Order'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[QuantityAvg]
+ AS [Measures].[QuantityvFactSale] / [Measures].[vFactOrderCount], 
+FORMAT_STRING = "#,##0.00", 
 VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members' ,  ASSOCIATED_MEASURE_GROUP = 'v Fact Order'  ; </Text>
         </Command>
       </Commands>
