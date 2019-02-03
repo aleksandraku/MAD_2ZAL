@@ -6,6 +6,28 @@
     <Name>MAD_2ZAL.database</Name>
     <FullPath>MAD_2ZAL.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>vDimCity.dim</Name>
+      <FullPath>vDimCity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>vDimStockItem.dim</Name>
+      <FullPath>vDimStockItem.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>vDimEmployee.dim</Name>
+      <FullPath>vDimEmployee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>vDimDate.dim</Name>
+      <FullPath>vDimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>vDimCustomer.dim</Name>
+      <FullPath>vDimCustomer.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WWI_DW.ds</Name>
