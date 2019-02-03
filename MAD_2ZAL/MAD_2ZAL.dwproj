@@ -6,6 +6,18 @@
     <Name>MAD_2ZAL.database</Name>
     <FullPath>MAD_2ZAL.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WWI_DW.cube</Name>
+      <FullPath>WWI_DW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WWI_DW.partitions</Name>
+          <FullPath>WWI_DW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>vDimCity.dim</Name>
@@ -40,6 +52,16 @@
       <FullPath>WWI_DW.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>RoleAdmin.role</Name>
+      <FullPath>RoleAdmin.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FullReader.role</Name>
+      <FullPath>FullReader.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
